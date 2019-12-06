@@ -30,3 +30,14 @@
 #servicesLine3{
   padding-bottom: 75px;
 }
+#whatWeDoHeading{
+  padding-top: 50px;
+}
+
+#whatWeDoImg{
+  padding-left: 200px;
+}
+
+#whatWeDoText{
+  display: none;
+}
