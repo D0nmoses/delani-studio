@@ -20,4 +20,13 @@
 
 #services{
   background-image: url("../img/services_img.jpg");
+  color: white;
+}
+
+#servicesHeading{
+  padding-top: 75px;
+}
+
+#servicesLine3{
+  padding-bottom: 75px;
 }
