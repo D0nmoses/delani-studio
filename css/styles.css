@@ -80,6 +80,12 @@ form{
 #socialSection div img{
   padding-right: 10px;
 }
-.hiddenWhatWeDo{
+#hiddenWhatWeDo1{
+  display: none;
+}
+#hiddenWhatWeDo2{
+  display: none;
+}
+#hiddenWhatWeDo3{
   display: none;
 }
