@@ -73,3 +73,10 @@ form{
 #textArea{
   padding-top: 20px;
 }
+
+#socialSection{
+  padding-top: 25px;
+}
+#socialSection div img{
+  padding-right: 10px;
+}
