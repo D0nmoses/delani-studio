@@ -133,53 +133,42 @@
       </div>
       <div class="col col-lg-2"></div>
     </div>
-    <div class="row" id="whatWeDoImg">
-      <div class="col-md-4 align-self-center" id="whatWeDoImgDesign">
-        <img src="img/design_icon.png" class="whatWeDoImage"><br>
-        <h6">DESIGN</h6>
+    <div class="row" id="whatWeDoToggle">
+      <div class="col-md-4">
+        <div class="col">
+          <center><img src="img/design_icon.png" idid="whatWeDoIcon1"></center>
+          <center>
+            <h4>DESIGN</h4>
+          </center>
+          <div id="hiddenWhatWeDo1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4 align-self-center" id="whatWeDoImgDevelopment">
-        <img src="img/dev_icon.png" class="whatWeDoImage"><br>
-        <h6>DEVELOPMENT</h6>
+      <div class="col-md-4">
+        <div class="col">
+          <center><img src="img/dev_icon.png" id="whatWeDoIcon2"></center>
+          <center>
+            <h4>DEVELOPMENT</h4>
+          </center>
+          <div id="hiddenWhatWeDo2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4 align-self-center" id="whatWeDoImgProductDevelpment">
-        <img src="img/product_icon.png" class="whatWeDoImage"><br>
-        <h6>PRODUCT DEVELOPMENT</h6>
-      </div>
-    </div>
-    <div class="row" id="whatWeDoText">
-      <div class="col-md-4 align-self-center" id="whatWeDoTextDesign">
-        <h6><strong>DESIGN</strong></h6>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
-      </div>
-      <div class="col-md-4 align-self-center" id="whatWeDoTextDevelopment">
-        <h6><strong>DEVELOPMENT</strong></h6>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
-      </div>
-      <div class="col-md-4 align-self-center" id="whatWeDoTextProductDevelopment">
-        <h6><strong>PRODUCT DEVELOPMENT</strong></h6>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
+      <div class="col-md-4">
+        <div class="col">
+          <center><img src="img/product_icon.png" id="whatWeDoIcon3"></center>
+          <center>
+            <h4>PRODUCT MANAGEMENT</h4>
+          </center>
+          <div id="hiddenWhatWeDo3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
       </div>
     </div>
     <h2 id="portfolioHeading"><strong>Portfolio</strong></h2>
@@ -241,7 +230,7 @@
       </div>
       <div class="col-md-5"></div>
       <div class="w-100"></div>
-      <form>
+      <form id="contactForm">
         <div class="row">
           <div class="col">
             <input type="text" class="form-control" placeholder="Name..." id="inputName">
@@ -251,38 +240,39 @@
           </div>
         </div>
         <div class="form-group" id="textArea">
-            <textarea class="form-control" id="inputText" rows="10" placeholder="Enter Message Here..."></textarea>
+          <textarea class="form-control" id="inputText" rows="10" placeholder="Enter Message Here..."></textarea>
+          <button class="submit" style="display: none;"></button>
         </div>
-        <input type="submit" style="position: absolute; left: -9999px"/>
+
       </form>
     </div>
     <div class="row justify-content-md-center" id="socialSection">
-        <div class="col col-lg-2"></div>
-        <div class="col-md-auto">
-          <img src="img/dribble.png">
-          <img src="img/facebook.png">
-          <img src="img/flickr.png">
-          <img src="img/g_plus.png">
-          <img src="img/pinterest.png">
-          <img src="img/skype.png">
-          <img src="img/you_tube.png">
-          <img src="img/stumble_upon.png">
-          <img src="img/behance.png">
-        </div>
-        <div class="col col-lg-2"></div>
-        <div class="w-100"></div>
-        <div class="col col-lg-2"></div>
-        <div class="col-md-auto">
-          <h3>DELANI STUDIO</h3>
-        </div>
-        <div class="col col-lg-2"></div>
-        <div class="w-100"></div>
-        <div class="col col-lg-2"></div>
-        <div class="col-md-auto">
-          <h3>2019</h3>
-        </div>
-        <div class="col col-lg-2"></div>
+      <div class="col col-lg-2"></div>
+      <div class="col-md-auto">
+        <img src="img/dribble.png">
+        <img src="img/facebook.png">
+        <img src="img/flickr.png">
+        <img src="img/g_plus.png">
+        <img src="img/pinterest.png">
+        <img src="img/skype.png">
+        <img src="img/you_tube.png">
+        <img src="img/stumble_upon.png">
+        <img src="img/behance.png">
       </div>
+      <div class="col col-lg-2"></div>
+      <div class="w-100"></div>
+      <div class="col col-lg-2"></div>
+      <div class="col-md-auto">
+        <h3>DELANI STUDIO</h3>
+      </div>
+      <div class="col col-lg-2"></div>
+      <div class="w-100"></div>
+      <div class="col col-lg-2"></div>
+      <div class="col-md-auto">
+        <h3>2019</h3>
+      </div>
+      <div class="col col-lg-2"></div>
+    </div>
   </div>
 </body>
 
