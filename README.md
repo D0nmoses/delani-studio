@@ -9,6 +9,8 @@ The project requires a web browser capable of handling ECMAScript5
 The images do not reveal text once clicked in the What We Do section.
 ## Technologies Used
 The project was built using Visual Studio Code. Languages used include HTML, CSS and Javascript. The Chrome console was also used for debugging.
+## Code Grade
+[![codebeat badge](https://codebeat.co/badges/bd440236-9c27-46b7-88ce-d8ed386f1f0f)](https://codebeat.co/projects/github-com-d0nmoses-delani-studio-master)
 ## Support and contact details
 In case of any issues, please forward them to gihinjidon@gmail.com and I will get in touch with further details.
 
